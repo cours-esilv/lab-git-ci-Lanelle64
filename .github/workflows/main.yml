@@ -32,5 +32,5 @@ jobs:
       if: always()
       with:
         files: target/**/*.xml
-        githubToken: ${{ secrets.GH_token }}
+        githubToken: ${{ secrets.GH_TOKEN }}
     
